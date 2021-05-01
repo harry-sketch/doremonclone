@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Original+Surfer&display=swap');
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+
+.intro{
+    width:700px;
+    position: relative;
+}
+.doremon{
+    max-width:100%;
+    border-radius: 1rem;
+    object-fit: contain;
+}
+
+.intro >h3{
+    position: absolute;
+    font-size:3rem;
+    left:2%;
+    color:#7ba3e3;
+    font-weight:300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+    font-family: 'Chelsea Market', cursive;
+}
+.img_1{
+    top:0%;
+    left:0%;
+    position: absolute;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.img_2{
+    position: absolute;
+    right:9%;
+    max-width: 100%;
+    object-fit: contain;
+    top:0%;
+}
+.img_3{
+    position: absolute;
+    object-fit: contain;
+    max-width:100%;
+    top:90%;
+    left: 2%;
+}
+.img_4{
+    position: absolute;
+    right:1%;
+    max-width: 100%;
+    object-fit: contain;
+    top:55%;
+}
+.img_5{
+    position: absolute;
+    top:170%;
+    left: 5%;
+    max-width: 100%;
+    object-fit: contain;
+    
+}
+.img_6{
+    position: absolute;
+    right:1%;
+    top:150%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+
+
+@media screen and (max-width:1309px) {
+    intro{
+        width:650px;
+    }
+    .img_1{
+        left:-2%;
+        max-width: 25%;
+    }
+    
+    .img_2{
+        right:5%;
+        max-width: 25%;
+    }
+    .img_3{
+        max-width:25%;
+    }
+    .img_4{
+        right:2%;
+        max-width: 25%;
+        top:59%;
+    }
+    .img_5{
+        position: absolute;
+        top:170%;
+        left: 5%;
+        max-width: 100%;
+        object-fit: contain;
+        
+    }
+    .img_6{
+        position: absolute;
+        right:1%;
+        top:150%;
+        max-width: 100%;
+        object-fit: contain;
+    }
+    
+    
+}
+@media screen and (max-width:950px) {
+    .intro{
+        margin-top:1rem;
+        width:660px;
+    }
+    .img_1{
+        display: none;
+    }
+    
+    .img_2{
+        display: none;
+    }
+}
+@media screen and (max-width:663px) {
+    .intro{
+        margin-top:2rem;
+        width:550px;
+    }
+    .intro h3{
+        font-size: 2.5rem;
+    }
+    .img_3{
+        display: none;
+    }
+    
+    .img_2{
+        display: none;
+    }
+}
+@media screen and (max-width:553px) {
+    .intro{
+        margin-top:2.5rem;
+        width:500px;
+    }
+    .intro h3{
+        font-size: 2.5rem;
+    }
+    .img_4{
+        display: none;
+    }
+    
+    .img_6{
+        display: none;
+    }
+}
+@media screen and (max-width:507px) {
+    .intro{
+        margin-top:2.5rem;
+        width:400px;
+    }
+    .intro h3{
+        font-size: 2rem;
+    }
+    
+}
+
+@media screen and (max-width:408px) {
+    .intro{
+        margin-top:3rem ;
+        width:320px;
+    }
+    .intro h3{
+        font-size: 1.5rem;
+    }
+    
+    .img_5{
+        display: none;
+    }
+}
+
+@media screen and (max-width:324px) {
+    .intro{
+        width:280px;
+    }
+}

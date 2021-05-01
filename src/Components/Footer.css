@@ -1,0 +1,9 @@
+.footer{
+    padding:1rem;
+}
+.footer > P{
+    text-align: center;
+    margin:0.4rem;
+    color:#7ba3e3;  
+    font-size:0.8rem;
+}

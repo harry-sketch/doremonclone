@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Original+Surfer&display=swap');
+
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,1fr));
+    grid-gap: 2rem;
+    padding:1.7rem 18%;
+    margin-top:2rem;
+}
+
+@media screen and (max-width:430px) {
+    .showcase{
+        padding:1rem;
+    }
+}
+@media screen and (max-width:324px) {
+    .showcase{
+        padding:0.5rem;
+    }
+}
+

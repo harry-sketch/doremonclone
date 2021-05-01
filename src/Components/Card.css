@@ -1,0 +1,47 @@
+.show_top{
+    display: flex;
+    border-radius: 1rem; 
+    align-items:flex-start;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.show_top >h3{
+    color:#7ba3e3;
+    font-family: 'Chelsea Market', cursive;
+    font-size:1.1rem;
+    margin-bottom: 0px;
+    margin:0.4rem 0rem 0rem 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.show_top > p {
+    color:#7ba3e3;
+    font-family: 'Chelsea Market', cursive;
+    font: size 0.8rem;
+    padding:0.4rem;
+    margin-bottom:1rem;
+    letter-spacing: 2px;
+
+}
+.show_1 > img{
+    max-width:100%;
+    object-fit: contain;
+    border-radius: 1rem;
+}
+
+
+@media screen and (max-width:310px) {
+    .show_top >h3{
+        font-size: 0.9rem;
+    }
+    .show_top >p{
+        font-size: 0.7rem;
+    }
+    .show_1 >img{
+        max-width: 80%;
+    }
+}
+
+
