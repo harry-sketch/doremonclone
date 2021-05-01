@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/doremonclone/static/css/main.5b89a58e.chunk.css",
+    "main.js": "/doremonclone/static/js/main.12c70cf4.chunk.js",
+    "main.js.map": "/doremonclone/static/js/main.12c70cf4.chunk.js.map",
+    "runtime-main.js": "/doremonclone/static/js/runtime-main.c2787ca8.js",
+    "runtime-main.js.map": "/doremonclone/static/js/runtime-main.c2787ca8.js.map",
+    "static/js/2.149ed783.chunk.js": "/doremonclone/static/js/2.149ed783.chunk.js",
+    "static/js/2.149ed783.chunk.js.map": "/doremonclone/static/js/2.149ed783.chunk.js.map",
+    "index.html": "/doremonclone/index.html",
+    "static/css/main.5b89a58e.chunk.css.map": "/doremonclone/static/css/main.5b89a58e.chunk.css.map",
+    "static/js/2.149ed783.chunk.js.LICENSE.txt": "/doremonclone/static/js/2.149ed783.chunk.js.LICENSE.txt",
+    "static/media/doraemon.01cfb880.png": "/doremonclone/static/media/doraemon.01cfb880.png",
+    "static/media/dore.69020642.jpg": "/doremonclone/static/media/dore.69020642.jpg",
+    "static/media/nobita.efd8d3f0.png": "/doremonclone/static/media/nobita.efd8d3f0.png",
+    "static/media/showcase_1.8e63e046.png": "/doremonclone/static/media/showcase_1.8e63e046.png",
+    "static/media/showcase_2.ddd3bfc4.jpg": "/doremonclone/static/media/showcase_2.ddd3bfc4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c2787ca8.js",
+    "static/js/2.149ed783.chunk.js",
+    "static/css/main.5b89a58e.chunk.css",
+    "static/js/main.12c70cf4.chunk.js"
+  ]
+}
